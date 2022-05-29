@@ -1,5 +1,5 @@
 <div class="w-full h-screen bg-neopurple">
-    <div class="grid grid-cols-2 grid-flow-col px-60 pt-32">
+    <div class="grid grid-cols-2 grid-flow-col px-60 pt-60">
         <div class="">
             <h1 class="text-8xl text-black font-bold">
                 About me
