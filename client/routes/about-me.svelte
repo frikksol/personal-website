@@ -1,12 +1,8 @@
-
 <div class="w-full h-screen bg-neopurple">
     <div class="grid grid-cols-2 grid-flow-col px-60 pt-32">
         <div class="">
             <h1 class="text-8xl text-black font-bold">
-                Frikk
-            </h1>
-            <h1 class="text-8xl text-black font-bold">
-                Herding
+                About me
             </h1>
             <button class="p-2 my-5 
                         border-4 border-black drop-shadow-block 
@@ -22,4 +18,3 @@
         </div>
     </div>
 </div>
-
