@@ -17,5 +17,8 @@ Cargo.lock
 node_modules/
 dist/
 
+# SvelteKit
+.svelte-kit/
+
 # osX
 .DS_Store
