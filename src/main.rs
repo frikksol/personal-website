@@ -37,5 +37,5 @@ fn main() {
     info!(env!("CARGO_MANIFEST_DIR"));
     rocket::ignite()
     .attach(CORS)
-    .mount("/", StaticFiles::from(concat!(env!("CARGO_MANIFEST_DIR"), "/dist"))).launch();
+    .mount("/", StaticFiles::from(concat!(env!("CARGO_MANIFEST_DIR"), "/client/app.html"))).launch();
 }
