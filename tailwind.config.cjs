@@ -37,7 +37,9 @@ module.exports = {
       dropShadow: {
         'block': [
           '4px 4px 0rem rgba(0, 0, 0, 1)',
-         
+        ],
+        'block-thick': [
+          '6px 6px 0rem rgba(0, 0, 0, 1)',
         ]
       }
     },

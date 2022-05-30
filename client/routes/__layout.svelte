@@ -4,12 +4,10 @@ import Nav from "../components/nav.svelte";
 </script>
 
 <main class="w-screen h-screen">
-    <div class="flex flex-row">
-        <div class="flex-grow">
-            <slot />
-        </div>
-        <div class="flex-grow">
+    <div class="static">
+        <div class="absolute top-0 right-0">
             <Nav />
         </div>
+        <slot />
     </div>
 </main>

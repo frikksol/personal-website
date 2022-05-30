@@ -1,15 +1,17 @@
+<script lang="ts">
+    import BorderButton from "../components/borderButton.svelte";
+
+    function onClick() {
+        console.log("clicked")
+    }
+</script>
 <div class="w-full h-screen bg-neopurple">
     <div class="grid grid-cols-2 grid-flow-col px-60 pt-60">
         <div class="">
             <h1 class="text-8xl text-black font-bold">
                 Projects
             </h1>
-            <button class="p-2 my-5 
-                        border-4 border-black drop-shadow-block 
-                        bg-yellow-300 hover:bg-teal-300 
-                        font-semibold">
-                <h1>GO SOMEWHERE</h1>
-            </button>
+            <BorderButton on:click={() => onClick()} text="go somewhere" />
         </div>
         <div class="pt-28">
             <p class="font-sans font-medium text-lg">
