@@ -1,6 +1,6 @@
 <script lang='ts'>
     import { goto } from '$app/navigation';
-    import IconButton from './iconButton.svelte';
+    import IconButton from './buttons/iconButton.svelte';
     import TextButton from './textButton.svelte';
 
     let showMenu = false
@@ -12,7 +12,7 @@
 </script>
 
 {#if showMenu}
-<nav class="bg-green-300 flex flex-col h-screen w-[35vw] ">
+<nav class="bg-green-300 flex flex-col h-screen md:w-[40vw] w-screen">
     <IconButton src="menu.png" alt="hamburger" color="bg-yellow-300" hoverColor="bg-green-500" 
         on:click={() => showMenu = !showMenu} />
     

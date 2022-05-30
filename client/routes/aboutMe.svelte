@@ -1,5 +1,5 @@
 <script lang="ts">
-    import BorderButton from "../components/borderButton.svelte";
+    import BorderButton from "../components/buttons/borderButton.svelte";
 
     function onClick() {
         console.log("clicked")

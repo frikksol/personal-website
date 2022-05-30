@@ -1,8 +1,9 @@
 <script lang="ts">
-    import BorderButton from "../components/borderButton.svelte";
+import { goto } from "$app/navigation";
+import BorderButton from "../components/buttons/borderButton.svelte";
 
     function onClick() {
-        console.log("clicked")
+        goto('/aboutMe')
     }
 </script>
 <div class="w-full h-screen bg-neopurple">
@@ -11,7 +12,7 @@
             <h1 class="text-8xl text-black font-bold">
                 Projects
             </h1>
-            <BorderButton on:click={() => onClick()} text="go somewhere" />
+            <BorderButton on:click={() => onClick()} text="about me" />
         </div>
         <div class="pt-28">
             <p class="font-sans font-medium text-lg">
