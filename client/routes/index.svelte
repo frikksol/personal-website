@@ -6,7 +6,7 @@ import LinkedinButton from "../components/buttons/linkedinButton.svelte";
 </script>
 
 
-<div class="w-full h-screen bg-[url('background.png')] bg-cover bg-no-repeat">
+<div class="w-full h-screen bg-index-background bg-cover bg-no-repeat">
     <div class="">
         <div class="grid grid-cols-2 grid-flow-col px-60 pt-60">
             <div>
