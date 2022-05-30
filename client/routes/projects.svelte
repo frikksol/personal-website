@@ -8,7 +8,7 @@ import BorderHref from "../components/buttons/borderHref.svelte";
             <h1 class="text-8xl text-black font-bold">
                 Projects
             </h1>
-            <BorderHref text="about me" link="/aboutMe"  color="bg-yellow-300" hoverColor="hover:bg-teal-300"/>
+            <BorderHref text="about me" link="/aboutMe"  color="bg-yellow-300" />
         </div>
         <div class="pt-28">
             <p class="font-sans font-medium text-lg">

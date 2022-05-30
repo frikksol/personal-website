@@ -2,13 +2,12 @@
     export let text: string
     export let link: string
     export let color: string
-    export let hoverColor: string
 </script>
 
 <div class="p-2 my-5 w-fit
             border-4 border-black drop-shadow-block 
             font-semibold uppercase
-            {color} hover:{hoverColor}">
+            {color} hover:bg-teal-300">
     <a href={link} >
         <h1>
             {text}

@@ -16,7 +16,7 @@ import LinkedinButton from "../components/buttons/linkedinButton.svelte";
                 <h1 class="text-8xl text-black font-bold bg-rose">
                     Herding
                 </h1>
-                <BorderHref text="my projects" link="/projects"  color="bg-yellow-300" hoverColor="hover:bg-teal-300"/>
+                <BorderHref text="my projects" link="/projects"  color="bg-yellow-300" />
             </div>
             <div class="pt-28">
                 <p class="font-sans font-medium text-lg">
