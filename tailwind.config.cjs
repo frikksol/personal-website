@@ -43,7 +43,7 @@ module.exports = {
         ]
       },
       backgroundImage: {
-        'index-background': "url('background.svg')",
+        'index-background': "url('/background.svg')",
       }
     },
   },
