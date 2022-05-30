@@ -1,18 +1,14 @@
 <script lang="ts">
-import { goto } from "$app/navigation";
-import BorderButton from "../components/buttons/borderButton.svelte";
-
-    function onClick() {
-        goto('/aboutMe')
-    }
+import BorderHref from "../components/buttons/borderHref.svelte";
 </script>
+
 <div class="w-full h-screen bg-neopurple">
     <div class="grid grid-cols-2 grid-flow-col px-60 pt-60">
         <div class="">
             <h1 class="text-8xl text-black font-bold">
                 Projects
             </h1>
-            <BorderButton on:click={() => onClick()} text="about me" />
+            <BorderHref text="about me" link="/aboutMe"  color="bg-yellow-300" hoverColor="hover:bg-teal-300"/>
         </div>
         <div class="pt-28">
             <p class="font-sans font-medium text-lg">

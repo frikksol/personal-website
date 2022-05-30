@@ -5,7 +5,7 @@ import Nav from "../components/nav.svelte";
 
 <main class="w-screen h-screen">
     <div class="static">
-        <div class="absolute top-0 right-0">
+        <div class="absolute top-0 right-0 z-50">
             <Nav />
         </div>
         <slot />
