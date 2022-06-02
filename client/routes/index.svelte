@@ -7,13 +7,15 @@
 
 <div class="w-full h-screen bg-index-background bg-cover bg-no-repeat">
   <div class="">
-    <div class="grid grid-cols-2 grid-flow-col px-60 pt-60">
+    <div
+      class="grid xl:grid-cols-2 grid-cols-1 xl:grid-flow-col grid-flow-row xl:px-60 px-12 xl:pt-60 pt-32"
+    >
       <div>
         <h1 class="text-8xl text-black font-bold">Frikk</h1>
         <h1 class="text-8xl text-black font-bold bg-rose">Herding</h1>
         <BorderHref text="my projects" link="/projects" color="bg-yellow-300" />
       </div>
-      <div class="pt-28">
+      <div class="xl:pt-28 pt-12">
         <p class="font-sans font-medium text-xl">
           My name is Frikk Herding and I am a norwegian software developer. I
           love building software of all kinds, serious, funny, big and small,
@@ -31,13 +33,15 @@
       </div>
     </div>
   </div>
-  <div class="absolute top-24 left-20">
-    <GithubButton />
-  </div>
-  <div class="absolute bottom-10 right-1/4">
-    <LinkedinButton />
-  </div>
-  <div class="absolute top-30 left-96">
-    <GitlabButton />
+  <div class="flex flex-row justify-between">
+    <div class="xl:absolute xl:top-24 xl:left-20">
+      <GithubButton />
+    </div>
+    <div class="xl:absolute xl:bottom-10 xl:right-1/4">
+      <LinkedinButton />
+    </div>
+    <div class="xl:absolute xl:top-30 xl:left-96">
+      <GitlabButton />
+    </div>
   </div>
 </div>

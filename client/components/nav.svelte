@@ -14,11 +14,11 @@
 {#if showMenu}
   <div class="flex flex-row">
     <button
-      class="h-screen md:w-[60vw] w-0"
+      class="h-screen lg:w-[60vw] w-0"
       on:click={() => (showMenu = !showMenu)}
     />
     <nav
-      class="bg-green-300 flex flex-col h-screen md:w-[40vw] w-screen flex-none"
+      class="bg-green-300 flex flex-col h-screen lg:w-[40vw] w-screen flex-none"
     >
       <IconButton
         src="menu.png"

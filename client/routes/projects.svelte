@@ -5,7 +5,9 @@
 </script>
 
 <div class="w-full h-screen bg-blue-400">
-  <div class="grid grid-cols-2 grid-flow-col px-60 pt-60">
+  <div
+    class="grid xl:grid-cols-2 grid-cols-1 xl:grid-flow-col grid-flow-row xl:px-60 px-12 xl:pt-60 pt-32"
+  >
     <div class="">
       <h1 class="text-8xl text-black font-bold">Projects</h1>
       <BorderHref text="about me" link="/aboutMe" color="bg-yellow-300" />
