@@ -6,5 +6,5 @@
   link="https://github.com/frikksol"
   src="github.png"
   alt="github"
-  color="bg-rose-600"
+  color="bg-emerald-500"
 />

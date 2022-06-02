@@ -8,7 +8,7 @@
   {href}
   class="w-auto h-auto
             border-4 border-black drop-shadow-block 
-            {color}"
+            {color} hover:bg-white"
 >
-  <h1 class="my-2 mx-4">{text}</h1>
+  <h1 class="my-2 mx-4 font-semibold">{text}</h1>
 </a>

@@ -6,5 +6,5 @@
   link="https://www.linkedin.com/in/fhsolberg/"
   src="linkedin.png"
   alt="linkedin"
-  color="bg-green-300"
+  color="bg-blue-400"
 />

@@ -13,7 +13,7 @@
   {...buttonProps}
   class="p-2 my-5 
             border-4 border-black drop-shadow-block 
-            {color} hover:bg-teal-300 
+            {color} hover:bg-white 
             font-semibold uppercase"
 >
   <h1>{text}</h1>

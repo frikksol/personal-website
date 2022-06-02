@@ -8,7 +8,7 @@
   class="p-2 my-5 w-fit
             border-4 border-black drop-shadow-block 
             font-semibold uppercase
-            {color} hover:bg-teal-300"
+            {color} hover:bg-white"
 >
   <a href={link}>
     <h1>

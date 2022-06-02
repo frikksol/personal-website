@@ -9,7 +9,7 @@
   <img
     class="p-3 mx-12 mt-12 w-16 h-16
         border-4 border-black drop-shadow-block
-        {color} hover:bg-teal-300"
+        {color} hover:bg-white"
     {src}
     {alt}
   />

@@ -2,7 +2,7 @@
   import BorderHref from "../components/buttons/borderHref.svelte";
 </script>
 
-<div class="w-full h-screen bg-neopurple">
+<div class="w-full h-screen bg-violet-500">
   <div class="grid grid-cols-2 grid-flow-col px-60 pt-32">
     <div class="">
       <h1 class="text-8xl text-black font-bold">About me</h1>
