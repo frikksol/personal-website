@@ -19,7 +19,7 @@
     see how long it lasts 😄
   </p>
   <h1 class="pt-4 font-semibold">Technologies used:</h1>
-  <div class="mt-2 flex flex-row space-x-4">
+  <div class="mt-2 flex flex-row flex-wrap space">
     <TechTag href="https://svelte.dev/" text="Svelte" color="bg-orange-400" />
     <TechTag
       href="https://kit.svelte.dev/"

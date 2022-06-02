@@ -5,14 +5,16 @@
   import LinkedinButton from "../components/buttons/linkedinButton.svelte";
 </script>
 
-<div class="w-full min-h-screen bg-index-background bg-cover bg-no-repeat">
+<div class="min-w-full min-h-screen bg-index-background bg-cover bg-no-repeat">
   <div class="">
     <div
       class="grid xl:grid-cols-2 grid-cols-1 xl:grid-flow-col grid-flow-row xl:px-60 px-12 xl:pt-60 pt-32"
     >
       <div>
-        <h1 class="text-8xl text-black font-bold">Frikk</h1>
-        <h1 class="text-8xl text-black font-bold bg-rose">Herding</h1>
+        <h1 class="sm:text-8xl text-7xl text-black font-bold">Frikk</h1>
+        <h1 class="sm:text-8xl text-7xl text-black font-bold bg-rose">
+          Herding
+        </h1>
         <BorderHref text="my projects" link="/projects" color="bg-yellow-300" />
       </div>
       <div class="xl:pt-28 pt-12">
