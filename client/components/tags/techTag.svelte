@@ -4,11 +4,6 @@
   export let href: string;
 </script>
 
-<a
-  {href}
-  class="w-auto h-auto
-            border-4 border-black drop-shadow-block 
-            {color} hover:bg-white"
->
-  <h1 class="my-2 mx-4 font-semibold">{text}</h1>
+<a {href} class="w-auto h-auto">
+  <h1 class="my-2 mr-4 font-semibold underline">{text}</h1>
 </a>

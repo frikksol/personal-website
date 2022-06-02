@@ -18,7 +18,8 @@
     all be outdated and out of fashion within the end of the year anyways, so let's
     see how long it lasts 😄
   </p>
-  <div class="mt-8 flex flex-row space-x-4">
+  <h1 class="pt-4 font-semibold">Technologies used:</h1>
+  <div class="mt-2 flex flex-row space-x-4">
     <TechTag href="https://svelte.dev/" text="Svelte" color="bg-orange-400" />
     <TechTag
       href="https://kit.svelte.dev/"
