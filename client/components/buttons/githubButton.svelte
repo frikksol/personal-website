@@ -1,5 +1,10 @@
 <script lang="ts">
-import IconHref from "./iconHref.svelte";
+  import IconHref from "./iconHref.svelte";
 </script>
 
-<IconHref link="https://github.com/frikksol" src="github.png" alt="github" color="bg-rose-600"/>
+<IconHref
+  link="https://github.com/frikksol"
+  src="github.png"
+  alt="github"
+  color="bg-rose-600"
+/>
