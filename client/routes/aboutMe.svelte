@@ -2,7 +2,7 @@
   import BorderHref from "../components/buttons/borderHref.svelte";
 </script>
 
-<div class="w-full h-screen bg-violet-500">
+<div class="w-full min-h-screen bg-violet-500">
   <div
     class="grid xl:grid-cols-2 grid-cols-1 xl:grid-flow-col grid-flow-row xl:px-60 px-12 xl:pt-60 pt-32"
   >

@@ -5,7 +5,7 @@
   import LinkedinButton from "../components/buttons/linkedinButton.svelte";
 </script>
 
-<div class="w-full h-screen bg-index-background bg-cover bg-no-repeat">
+<div class="w-full min-h-screen bg-index-background bg-cover bg-no-repeat">
   <div class="">
     <div
       class="grid xl:grid-cols-2 grid-cols-1 xl:grid-flow-col grid-flow-row xl:px-60 px-12 xl:pt-60 pt-32"
@@ -33,7 +33,7 @@
       </div>
     </div>
   </div>
-  <div class="flex flex-row justify-between">
+  <div class="flex flex-row justify-between pb-12">
     <div class="xl:absolute xl:top-24 xl:left-20">
       <GithubButton />
     </div>
