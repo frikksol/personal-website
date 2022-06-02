@@ -8,10 +8,9 @@
             border-4 border-black drop-shadow-block 
             font-semibold uppercase
             {color} hover:bg-teal-300">
-    <a href={link} >
+    <a href={link}>
         <h1>
             {text}
         </h1>
     </a>
 </div>
-

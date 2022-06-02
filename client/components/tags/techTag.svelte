@@ -1,0 +1,11 @@
+<script lang="ts">
+    export let color: string
+    export let text: string
+    export let href: string
+</script>
+
+<a href={href} class="w-auto h-auto
+            border-4 border-black drop-shadow-block 
+            {color}">
+    <h1 class="my-2 mx-4">{text}</h1>
+</a>

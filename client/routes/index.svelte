@@ -19,8 +19,16 @@ import LinkedinButton from "../components/buttons/linkedinButton.svelte";
                 <BorderHref text="my projects" link="/projects"  color="bg-yellow-300" />
             </div>
             <div class="pt-28">
-                <p class="font-sans font-medium text-lg">
-                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                <p class="font-sans font-medium text-xl">
+                    My name is Frikk Herding and I am a norwegian software developer. 
+                    I love building software of all kinds, serious, funny, big and small, but my love really lies where 
+                    software makes things happen in the physical world.
+                    <br><br>
+                    My root and background is in electronics, but I quickly realized that I enjoyed software development
+                    way more, and switched my career in that direction. I like to see myself as a bit of a
+                    potato developer; working all the way from embedded C through the backend to different types of frontends. 
+                    The one area where I feel I have been lacking is in the UI department, which is also the main motivation
+                    for building this website from the ground up, to learn the ropes, and familirize myself with web technologies.
                 </p>
             </div>
         </div>
