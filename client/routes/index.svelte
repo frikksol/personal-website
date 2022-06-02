@@ -8,11 +8,11 @@
 <div class="min-w-full min-h-screen bg-index-background bg-cover bg-no-repeat">
   <div class="">
     <div
-      class="grid xl:grid-cols-2 grid-cols-1 xl:grid-flow-col grid-flow-row xl:px-60 px-12 xl:pt-60 pt-32"
+      class="grid xl:grid-cols-2 grid-cols-1 xl:grid-flow-col grid-flow-row xl:px-60 px-6 xl:pt-60 pt-12"
     >
       <div>
-        <h1 class="sm:text-8xl text-7xl text-black font-bold">Frikk</h1>
-        <h1 class="sm:text-8xl text-7xl text-black font-bold bg-rose">
+        <h1 class="sm:text-8xl text-5xl text-black font-bold">Frikk</h1>
+        <h1 class="sm:text-8xl text-5xl text-black font-bold bg-rose">
           Herding
         </h1>
         <BorderHref text="my projects" link="/projects" color="bg-yellow-300" />
