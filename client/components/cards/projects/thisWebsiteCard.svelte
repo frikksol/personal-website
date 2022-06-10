@@ -1,10 +1,10 @@
 <script lang="ts">
-  import TechTag from "../tags/techTag.svelte";
-  import StandardCard from "./standardCard.svelte";
+  import TechTag from "../../tags/techTag.svelte";
+  import StandardCard from "../standardCard.svelte";
 </script>
 
 <StandardCard
-  headerColor="bg-neopurple"
+  headerColor="bg-blue-400"
   bodyColor="bg-white"
   title="This website"
 >

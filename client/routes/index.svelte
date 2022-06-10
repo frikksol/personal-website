@@ -15,7 +15,7 @@
         <h1 class="sm:text-8xl text-5xl text-black font-bold bg-rose">
           Herding
         </h1>
-        <BorderHref text="my projects" link="/projects" color="bg-yellow-300" />
+        <BorderHref text="my projects" link="/projects" color="bg-green-400" />
       </div>
       <div class="xl:pt-28 pt-12">
         <p class="font-sans font-medium text-xl">

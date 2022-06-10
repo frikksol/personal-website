@@ -6,5 +6,5 @@
   link="https://gitlab.com/frikksol"
   src="gitlab.png"
   alt="gitlab"
-  color="bg-blue-600"
+  color="bg-yellow-300"
 />
