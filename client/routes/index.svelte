@@ -20,7 +20,7 @@
       <div class="xl:pt-28 pt-12">
         <p class="font-sans font-medium text-xl">
           My name is Frikk Herding and I am a norwegian software developer. I
-          love building software of all kinds, serious, funny, big and small,
+          love building software of all kinds; serious, funny, big and small,
           but my love really lies where software makes things happen in the
           physical world.
           <br /><br />

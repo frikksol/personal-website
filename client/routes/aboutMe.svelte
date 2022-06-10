@@ -20,11 +20,14 @@
           alt="me"
         />
       </div>
+      <div class="flex justify-start">
+        <BorderHref text="back home?" link="/" color="bg-yellow-300" />
+      </div>
     </div>
     <div class="xl:pt-36 pt-12">
       <p class="font-sans font-medium text-lg">
         My name is Frikk Herding and I am a norwegian software developer. I love
-        building software of all kinds, serious, funny, big and small, but my
+        building software of all kinds; serious, funny, big and small, but my
         love really lies where software makes things happen in the physical
         world.
         <br /><br />
@@ -40,9 +43,6 @@
       <VivaCard />
       <EskoCard />
       <NtnuCard />
-      <div class="flex justify-end">
-        <BorderHref text="back home?" link="/" color="bg-yellow-300" />
-      </div>
     </div>
   </div>
 </div>
