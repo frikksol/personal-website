@@ -18,6 +18,13 @@
     all be outdated and out of fashion within the end of the year anyways, so let's
     see how long it lasts 😄
   </p>
+  <div class="mt-2 flex flex-row flex-wrap space">
+    <TechTag
+      href="https://github.com/frikksol/personal-website/"
+      text="Visit Repo"
+      color="bg-orange-500"
+    />
+  </div>
   <h1 class="pt-4 font-semibold">Technologies used:</h1>
   <div class="mt-2 flex flex-row flex-wrap space">
     <TechTag href="https://svelte.dev/" text="Svelte" color="bg-orange-400" />
