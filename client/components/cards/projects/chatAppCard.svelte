@@ -23,6 +23,13 @@
       color="bg-orange-500"
     />
   </div>
+  <div class="mt-2 flex flex-row flex-wrap space">
+    <TechTag
+      href="https://github.com/frikksol/chat-app"
+      text="Visit repo"
+      color="bg-orange-500"
+    />
+  </div>
   <div class="mt-2 flex flex-row space-x-4">
     <TechTag
       href="https://kit.svelte.dev/"
