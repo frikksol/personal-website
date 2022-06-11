@@ -5,6 +5,10 @@
   import LinkedinButton from "../components/buttons/linkedinButton.svelte";
 </script>
 
+<svelte:head>
+  <title>Frikk Herding</title>
+</svelte:head>
+
 <div class="min-w-full min-h-screen bg-index-background bg-cover bg-no-repeat">
   <div class="">
     <div

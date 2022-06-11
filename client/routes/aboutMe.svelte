@@ -6,6 +6,10 @@
   import VivaCard from "../components/cards/about-me/vivaCard.svelte";
 </script>
 
+<svelte:head>
+  <title>About Me</title>
+</svelte:head>
+
 <div class="min-w-full min-h-screen bg-blue-400">
   <div
     class="grid xl:grid-cols-2 grid-cols-1 xl:grid-flow-col grid-flow-row xl:px-60 px-6 xl:pt-60 pt-12"

@@ -5,6 +5,10 @@
   import TungoCard from "../components/cards/projects/tungoCard.svelte";
 </script>
 
+<svelte:head>
+  <title>Projects</title>
+</svelte:head>
+
 <div class="min-w-full min-h-screen bg-neopurple">
   <div
     class="grid xl:grid-cols-2 grid-cols-1 xl:grid-flow-col grid-flow-row xl:px-60 px-6 xl:pt-60 pt-12"
