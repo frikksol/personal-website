@@ -13,6 +13,9 @@
     Acoustics and Media. It was during my studies I realised that I really loved
     programming and decided to pursue a career in software development instead
     of electronics.
+    <br /><br />
+    The topic of my masters was parametric analysis of vibration sensor data from
+    Rolls Royce Marine Propulsion Systems.
   </p>
   <h1 class="pt-4 font-semibold">Tags:</h1>
   <div class="mt-2 flex flex-row flex-wrap space">

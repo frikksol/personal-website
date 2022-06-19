@@ -18,8 +18,8 @@
     and support.
     <br /><br />
     The backend is written in Typescript, runs on Google Cloud on a mix of CloudFunctions
-    and CloudRun, while the app is currently a flutter app with a large portion is
-    native, written in Java.
+    and CloudRun, while the app is currently a flutter app where a large portion
+    is native, written in Java and Swift.
   </p>
   <h1 class="pt-4 font-semibold">Tags:</h1>
   <div class="mt-2 flex flex-row flex-wrap space">

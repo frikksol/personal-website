@@ -22,6 +22,36 @@
     AWS servers and did a lot of App development on our hybrid Javascript/Swift/Kotlin
     app.
   </p>
+  <br /><br />
+  <h2 class="text-lg font-bold">Some of the coolest projects I did in Viva:</h2>
+  <h2 class="text-lg">
+    Tailored Android OS to run as a smarthome device frontend:
+  </h2>
+  <p class="text-lg">
+    Tight integration into the Viva platform, Kiosk mode, customizing the
+    dropdown-menus, adapting zigbee-drivers to run on Android, update services,
+    device onboarding flow etc.
+  </p>
+  <br />
+
+  <h2 class="text-lg">
+    Developed built-in Alexa support on an Android device:
+  </h2>
+  <p class="text-lg">
+    Adapt alexa SDK to run on device, built messaging system between OS and
+    Alexa SDK, collaborate with hardware vendor to optimise audio and hardware
+    configuration for Alexa, Amazon Alexa certification etc.
+  </p>
+  <br />
+
+  <h2 class="text-lg">Built MQTT-support into our app:</h2>
+  <p class="text-lg">
+    For a smart home system running on MQTT, it was beneficial to add leverage
+    this app side as well due to its amazing speed. On completion, feedback
+    speed on for example turning on a light was reduced from average ~1.5 sec to
+    ~0.2 sec which makes it feel almost instant.
+  </p>
+
   <h1 class="pt-4 font-semibold">Tags:</h1>
   <div class="mt-2 flex flex-row flex-wrap space">
     Linux, C, C++, MQTT, AWS, Java, AWS, IoT, Wi-Fi, Zigbee, Z-wave, Alexa,

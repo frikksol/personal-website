@@ -17,7 +17,6 @@ const config = {
 			assets: 'static',
 			hooks: 'client/hooks',
 			lib: 'client/lib',
-			params: 'client/params',
 			routes: 'client/routes',
 			serviceWorker: 'client/service-worker',
 			template: 'client/app.html'

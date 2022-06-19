@@ -12,20 +12,28 @@
     finishing department. They create machines for pricise cutting of materials
     like cardboard, plastic fabric etc. Picture a CNC equipped with a razor
     blade.
-    <br /><br />
-    In my role I did several different things like:
-    <br />
-    - Development of the Windows application written in C# and C++ used to manage
-    the machines.
-    <br />
-    - Embedded development in C on the machines themselves. Controlling of highspeed
-    electrical motors etc.
-    <br />
-    - Integration with Kuka Robots to manage on and offloading of materials on the
-    machines cutting table.
-    <br />
-    - Scrum master for the development team.
   </p>
+  <br />
+  <h2 class="font-bold text-lg">
+    Summary of the most important tasks in my role:
+  </h2>
+  <p class="text-lg">
+    Development of the Windows application written in C# and C++ used to manage
+    the machines.
+  </p>
+  <br />
+  <p class="text-lg">
+    Embedded development in C on the machines themselves. Controlling of
+    highspeed electrical motors etc.
+  </p>
+  <br />
+  <p class="text-lg">
+    Integration with Kuka Robots to manage on and offloading of materials on the
+    machines cutting table.
+  </p>
+  <br />
+  <p class="text-lg">Scrum master for the development team.</p>
+
   <h1 class="pt-4 font-semibold">Tags:</h1>
   <div class="mt-2 flex flex-row flex-wrap space">
     C++, C#, Embedded systems, Kuka Robots
