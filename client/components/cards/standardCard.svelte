@@ -5,7 +5,7 @@
 </script>
 
 <div
-  class="w-auto h-auto my-12
+  class="w-auto h-fit xl:my-12 my-6
             border-4 border-black drop-shadow-block 
             {bodyColor}"
 >
