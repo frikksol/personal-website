@@ -17,7 +17,7 @@
     MQTT.
     <br /><br />
     After a year I took over the CTO position when the founder/CTO decided to pursue
-    other things. As CTO I also had personell responisibilty for 13 Employees and
+    other things. As CTO I also had personel responsibilties for 13 Employees and
     several consultants. I also wrote a lot of backend code in Java, managed our
     AWS servers and did a lot of App development on our hybrid Javascript/Swift/Kotlin
     app.
