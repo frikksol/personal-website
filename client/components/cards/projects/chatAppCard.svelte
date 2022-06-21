@@ -16,7 +16,6 @@
     Also the cross-compilation in rust must be the best solution for cross-compilation
     I have ever seen.
   </p>
-  <h1 class="pt-4 font-semibold">Technologies used:</h1>
   <div class="mt-2 flex flex-row flex-wrap space">
     <TechTag
       href="https://chat-app-flax-theta.vercel.app/"
@@ -31,6 +30,8 @@
       color="bg-orange-500"
     />
   </div>
+
+  <h1 class="pt-4 font-semibold">Technologies used:</h1>
   <div class="mt-2 flex flex-row space-x-4">
     <TechTag
       href="https://kit.svelte.dev/"
