@@ -2,7 +2,6 @@
   import BorderHref from "../components/buttons/borderHref.svelte";
   import ChatAppCard from "../components/cards/projects/chatAppCard.svelte";
   import ThisWebsiteCard from "../components/cards/projects/thisWebsiteCard.svelte";
-  import TungoCard from "../components/cards/projects/tungoCard.svelte";
 
   let innerWidth = 0;
   $: singleCol = innerWidth <= 1280;
@@ -35,13 +34,11 @@
     <div class="grid grid-cols-1 gap-0 xl:px-52 px-6 py-12">
       <ThisWebsiteCard />
       <ChatAppCard />
-      <TungoCard />
     </div>
   {:else}
     <div class="grid xl:grid-cols-2 grid-cols-1 justify-start xl:px-52">
       <div class="pl-8 pr-6">
         <ThisWebsiteCard />
-        <TungoCard />
       </div>
       <div class="pl-6 pr-8">
         <ChatAppCard />
