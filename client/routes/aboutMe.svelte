@@ -22,9 +22,9 @@
       <h1 class="sm:text-8xl text-5xl text-black font-bold">About me</h1>
       <div class="flex justify-start">
         <img
-          class="mr-12 mt-12 w-96
+          class="mr-12 mt-12 w-96 h-fit
                         border-4 border-black drop-shadow-block-thick"
-          src="me.jpeg"
+          src="me.webp"
           alt="me"
         />
       </div>
