@@ -34,7 +34,7 @@
     </div>
     <div class="xl:pt-48 pt-12  xl:px-6 px-0">
       <p class="h-full font-sans font-medium text-lg">
-        My name is Frikk Herding and I am a norwegian software developer. I love
+        My name is Frikk Herding and I am a Norwegian software developer. I love
         building software of all kinds; serious, funny, big and small, but my
         love really lies where software makes things happen in the physical
         world.
@@ -45,7 +45,7 @@
         from embedded C through the backend to different types of frontends. The
         one area where I feel I have been lacking is in the UI department, which
         is also the main motivation for building this website from the ground up,
-        to learn the ropes, and familirize myself with web technologies.
+        to learn the ropes, and familiarize myself with web technologies.
       </p>
     </div>
   </div>
