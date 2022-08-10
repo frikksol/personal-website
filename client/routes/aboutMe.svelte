@@ -2,6 +2,7 @@
   import BorderHref from "../components/buttons/borderHref.svelte";
   import EskoCard from "../components/cards/about-me/eskoCard.svelte";
   import NtnuCard from "../components/cards/about-me/ntnuCard.svelte";
+  import TrashTagCard from "../components/cards/about-me/trashTagCard.svelte";
   import UnlocCard from "../components/cards/about-me/unlocCard.svelte";
   import VivaCard from "../components/cards/about-me/vivaCard.svelte";
 
@@ -55,17 +56,19 @@
       <UnlocCard />
       <VivaCard />
       <EskoCard />
+      <TrashTagCard />
       <NtnuCard />
     </div>
   {:else}
     <div class="grid xl:grid-cols-2 grid-cols-1 justify-start xl:px-52">
       <div class="pl-8 pr-6">
         <UnlocCard />
-        <EskoCard />
+        <TrashTagCard />
+        <NtnuCard />
       </div>
       <div class="pl-6 pr-8">
         <VivaCard />
-        <NtnuCard />
+        <EskoCard />
       </div>
     </div>
   {/if}
