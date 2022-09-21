@@ -1,5 +1,4 @@
 <script lang="ts">
-  export let color: string;
   export let text: string;
   export let href: string;
 </script>
