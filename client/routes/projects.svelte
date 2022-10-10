@@ -1,6 +1,7 @@
 <script lang="ts">
   import BorderHref from "../components/buttons/borderHref.svelte";
   import ChatAppCard from "../components/cards/projects/chatAppCard.svelte";
+  import Playground from "../components/cards/projects/playground.svelte";
   import ThisWebsiteCard from "../components/cards/projects/thisWebsiteCard.svelte";
 
   let innerWidth = 0;
@@ -34,11 +35,13 @@
     <div class="grid grid-cols-1 gap-0 xl:px-52 px-6 py-12">
       <ThisWebsiteCard />
       <ChatAppCard />
+      <Playground />
     </div>
   {:else}
     <div class="grid xl:grid-cols-2 grid-cols-1 justify-start xl:px-52">
       <div class="pl-8 pr-6">
         <ThisWebsiteCard />
+        <Playground />
       </div>
       <div class="pl-6 pr-8">
         <ChatAppCard />
