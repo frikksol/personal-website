@@ -14,7 +14,7 @@
   </p>
   <div class="mt-2 flex flex-row flex-wrap space">
     <TechTag
-      href="https://playground-three-sandy.vercel.app/"
+      href="https://playground.frikkherding.dev"
       text="Visit Playground"
     />
   </div>

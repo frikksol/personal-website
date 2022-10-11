@@ -17,10 +17,7 @@
     for cross-compilation I have ever seen.
   </p>
   <div class="mt-2 flex flex-row flex-wrap space">
-    <TechTag
-      href="https://chat-app-flax-theta.vercel.app/"
-      text="Visit Chat App"
-    />
+    <TechTag href="https://chat-app.frikkherding.dev" text="Visit Chat App" />
   </div>
   <div class="mt-2 flex flex-row flex-wrap space">
     <TechTag href="https://github.com/frikksol/chat-app" text="Visit repo" />
