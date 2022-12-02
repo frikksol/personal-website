@@ -4,5 +4,5 @@
 </script>
 
 <a {href} class="w-auto h-auto">
-  <h1 class="my-2 mr-4 font-semibold underline">{text}</h1>
+  <h1 class="my-2 mr-4 font-semibold underline hover:no-underline">{text}</h1>
 </a>

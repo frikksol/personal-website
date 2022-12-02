@@ -23,7 +23,7 @@
       <IconButton
         src="menu.png"
         alt="hamburger"
-        color="bg-yellow-300"
+        color="bg-green-500"
         on:click={() => (showMenu = !showMenu)}
       />
 

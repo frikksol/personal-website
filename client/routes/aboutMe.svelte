@@ -30,7 +30,7 @@
         />
       </div>
       <div class="flex justify-start">
-        <BorderHref text="back home?" link="/" color="bg-yellow-300" />
+        <BorderHref text="back home?" link="/" color="bg-green-500" />
       </div>
     </div>
     <div class="xl:pt-48 pt-12  xl:px-6 px-0">

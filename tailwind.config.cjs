@@ -32,7 +32,7 @@ module.exports = {
     extend: {
       colors: {
         'spotify': '#1DB954',
-        'neopurple': '#DE7DFF',
+        'neopurple': '#CE7DF0',
       },
       dropShadow: {
         'block': [

@@ -19,7 +19,7 @@
   >
     <div>
       <h1 class="sm:text-8xl text-5xl text-black font-bold">Projects</h1>
-      <BorderHref text="about me" link="/aboutMe" color="bg-yellow-300" />
+      <BorderHref text="about me" link="/aboutMe" color="bg-green-500" />
     </div>
     <div class="pt-6 xl:px-6 px-0">
       <p class="font-sans font-medium text-lg">
