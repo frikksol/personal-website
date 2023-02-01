@@ -24,7 +24,7 @@
   </div>
 
   <h1 class="pt-4 font-semibold">Technologies used:</h1>
-  <div class="mt-2 flex flex-row space-x-4">
+  <div class="mt-2 flex flex-row flex-wrap space">
     <TechTag href="https://kit.svelte.dev/" text="SvelteKit" />
     <TechTag href="https://www.rustlang.org/" text="Rust" />
     <TechTag href="https://rocket.rs/" text="Rocket" />
