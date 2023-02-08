@@ -4,6 +4,7 @@ The client in written in TypeScript using the SvelteKit framework and is styled 
 
 ## Running
 Running locally:
+
 ```bash
 npm i
 npm run dev
