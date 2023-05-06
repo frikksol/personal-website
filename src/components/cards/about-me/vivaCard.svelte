@@ -53,7 +53,7 @@
   </p>
 
   <h1 class="pt-4 font-semibold">Tags:</h1>
-  <div class="mt-2 flex flex-row flex-wrap space">
+  <div class="space mt-2 flex flex-row flex-wrap">
     Linux, C, C++, MQTT, AWS, Java, AWS, IoT, Wi-Fi, Zigbee, Z-wave, Alexa,
     Kotlin
   </div></StandardCard

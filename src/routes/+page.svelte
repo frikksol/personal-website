@@ -9,20 +9,20 @@
   <title>Frikk Herding</title>
 </svelte:head>
 
-<div class="min-w-full min-h-screen bg-index-background bg-cover bg-no-repeat">
+<div class="min-h-screen min-w-full bg-index-background bg-cover bg-no-repeat">
   <div class="">
     <div
-      class="grid xl:grid-cols-2 grid-cols-1 xl:grid-flow-col grid-flow-row xl:px-60 px-6 xl:pt-60 pt-12"
+      class="grid grid-flow-row grid-cols-1 px-6 pt-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"
     >
       <div>
-        <h1 class="sm:text-8xl text-5xl text-black font-bold">Frikk</h1>
-        <h1 class="sm:text-8xl text-5xl text-black font-bold bg-rose">
+        <h1 class="text-5xl font-bold text-black sm:text-8xl">Frikk</h1>
+        <h1 class="bg-rose text-5xl font-bold text-black sm:text-8xl">
           Herding
         </h1>
         <BorderHref text="my projects" link="/projects" color="bg-green-500" />
       </div>
-      <div class="xl:pt-28 pt-2">
-        <p class="font-sans font-medium text-xl">
+      <div class="pt-2 xl:pt-28">
+        <p class="font-sans text-xl font-medium">
           My name is Frikk Herding and I am a norwegian software developer. I
           love building software of all kinds; serious, funny, big and small,
           but my love really lies where software makes things happen in the
@@ -39,14 +39,14 @@
       </div>
     </div>
   </div>
-  <div class="flex flex-row justify-between mt-12">
-    <div class="xl:absolute xl:top-24 xl:left-20">
+  <div class="mt-12 flex flex-row justify-between">
+    <div class="xl:absolute xl:left-20 xl:top-24">
       <GithubButton />
     </div>
     <div class="xl:absolute xl:bottom-10 xl:right-1/4">
       <LinkedinButton />
     </div>
-    <div class="xl:absolute xl:top-30 xl:left-96">
+    <div class="xl:top-30 xl:absolute xl:left-96">
       <GitlabButton />
     </div>
   </div>

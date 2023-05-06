@@ -18,7 +18,7 @@
     Rolls Royce Marine Propulsion Systems.
   </p>
   <h1 class="pt-4 font-semibold">Tags:</h1>
-  <div class="mt-2 flex flex-row flex-wrap space">
+  <div class="space mt-2 flex flex-row flex-wrap">
     Math, Physics, C++, Circuit Design, Python, Matlab, Signal Processing
   </div></StandardCard
 >

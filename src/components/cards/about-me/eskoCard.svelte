@@ -14,7 +14,7 @@
     blade.
   </p>
   <br />
-  <h2 class="font-bold text-lg">
+  <h2 class="text-lg font-bold">
     Summary of the most important tasks in my role:
   </h2>
   <p class="text-lg">
@@ -35,7 +35,7 @@
   <p class="text-lg">Scrum master for the development team.</p>
 
   <h1 class="pt-4 font-semibold">Tags:</h1>
-  <div class="mt-2 flex flex-row flex-wrap space">
+  <div class="space mt-2 flex flex-row flex-wrap">
     C++, C#, Embedded systems, Kuka Robots
   </div></StandardCard
 >

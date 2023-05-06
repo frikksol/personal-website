@@ -15,15 +15,15 @@
 </svelte:head>
 <svelte:window bind:innerWidth />
 
-<div class="min-w-full min-h-screen bg-blue-400">
+<div class="min-h-screen min-w-full bg-blue-400">
   <div
-    class="grid xl:grid-cols-2 grid-cols-1 xl:grid-flow-col grid-flow-row xl:px-60 px-6 xl:pt-60 pt-12"
+    class="grid grid-flow-row grid-cols-1 px-6 pt-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"
   >
     <div class="">
-      <h1 class="sm:text-8xl text-5xl text-black font-bold">About me</h1>
+      <h1 class="text-5xl font-bold text-black sm:text-8xl">About me</h1>
       <div class="flex justify-start">
         <img
-          class="mr-12 mt-12 w-96 h-fit
+          class="mr-12 mt-12 h-fit w-96
 						  border-4 border-black drop-shadow-block-thick"
           src="me.webp"
           alt="me"
@@ -33,8 +33,8 @@
         <BorderHref text="back home?" link="/" color="bg-green-500" />
       </div>
     </div>
-    <div class="xl:pt-48 pt-12 xl:px-6 px-0">
-      <p class="h-full font-sans font-medium text-lg">
+    <div class="px-0 pt-12 xl:px-6 xl:pt-48">
+      <p class="h-full font-sans text-lg font-medium">
         My name is Frikk Herding and I am a Norwegian software developer. I love
         building software of all kinds; serious, funny, big and small, but my
         love really lies where software makes things happen in the physical
@@ -52,7 +52,7 @@
   </div>
 
   {#if singleCol}
-    <div class="grid grid-cols-1 gap-0 xl:px-52 px-6 py-12">
+    <div class="grid grid-cols-1 gap-0 px-6 py-12 xl:px-52">
       <UnlocCard />
       <VivaCard />
       <EskoCard />
@@ -60,7 +60,7 @@
       <NtnuCard />
     </div>
   {:else}
-    <div class="grid xl:grid-cols-2 grid-cols-1 justify-start xl:px-52">
+    <div class="grid grid-cols-1 justify-start xl:grid-cols-2 xl:px-52">
       <div class="pl-8 pr-6">
         <UnlocCard />
         <TrashTagCard />

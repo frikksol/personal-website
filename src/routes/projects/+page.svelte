@@ -13,16 +13,16 @@
 </svelte:head>
 <svelte:window bind:innerWidth />
 
-<div class="min-w-full min-h-screen bg-neopurple">
+<div class="min-h-screen min-w-full bg-neopurple">
   <div
-    class="grid xl:grid-cols-2 grid-cols-1 xl:grid-flow-col grid-flow-row xl:px-60 px-6 xl:pt-60 pt-12"
+    class="grid grid-flow-row grid-cols-1 px-6 pt-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"
   >
     <div>
-      <h1 class="sm:text-8xl text-5xl text-black font-bold">Projects</h1>
+      <h1 class="text-5xl font-bold text-black sm:text-8xl">Projects</h1>
       <BorderHref text="about me" link="/aboutMe" color="bg-green-500" />
     </div>
-    <div class="pt-6 xl:px-6 px-0">
-      <p class="font-sans font-medium text-lg">
+    <div class="px-0 pt-6 xl:px-6">
+      <p class="font-sans text-lg font-medium">
         This is a collection of some of my private projects. It is not much yet,
         as I have several projects that I have not yet deployed, and some are
         still not finished. Feel free to have a look, and in addition there is
@@ -32,13 +32,13 @@
   </div>
 
   {#if singleCol}
-    <div class="grid grid-cols-1 gap-0 xl:px-52 px-6 py-12">
+    <div class="grid grid-cols-1 gap-0 px-6 py-12 xl:px-52">
       <ThisWebsiteCard />
       <ChatAppCard />
       <Playground />
     </div>
   {:else}
-    <div class="grid xl:grid-cols-2 grid-cols-1 justify-start xl:px-52">
+    <div class="grid grid-cols-1 justify-start xl:grid-cols-2 xl:px-52">
       <div class="pl-8 pr-6">
         <ThisWebsiteCard />
         <Playground />

@@ -7,8 +7,8 @@
 
 <a href={link}>
   <img
-    class="p-3 mx-12 my-2 w-16 h-16
-        border-4 border-black drop-shadow-block
+    class="mx-12 my-2 h-16 w-16 border-4
+        border-black p-3 drop-shadow-block
         {color} hover:bg-white"
     {src}
     {alt}

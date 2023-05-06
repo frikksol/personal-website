@@ -11,10 +11,10 @@
   on:mouseleave
   on:focus
   {...buttonProps}
-  class="p-2 my-5 
-            border-4 border-black drop-shadow-block 
-            {color} hover:bg-white 
-            font-semibold uppercase"
+  class="my-5 border-4
+            border-black p-2 drop-shadow-block
+            {color} font-semibold
+            uppercase hover:bg-white"
 >
   <h1>{text}</h1>
 </button>

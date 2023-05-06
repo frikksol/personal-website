@@ -16,5 +16,5 @@
             border-4 border-black drop-shadow-block
             {color} hover:bg-white"
 >
-  <img class="p-3 w-14 h-14" {src} {alt} />
+  <img class="h-14 w-14 p-3" {src} {alt} />
 </button>

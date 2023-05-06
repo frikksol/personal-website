@@ -22,7 +22,7 @@
     is native, written in Java and Swift.
   </p>
   <h1 class="pt-4 font-semibold">Tags:</h1>
-  <div class="mt-2 flex flex-row flex-wrap space">
+  <div class="space mt-2 flex flex-row flex-wrap">
     TypeScript, Javascript, Google Cloud, API's, Kotlin, Flutter, Java
   </div></StandardCard
 >

@@ -5,9 +5,9 @@
 </script>
 
 <div
-  class="p-2 my-5 w-fit
-            border-4 border-black drop-shadow-block 
-            font-semibold uppercase
+  class="my-5 w-fit border-4
+            border-black p-2 font-semibold
+            uppercase drop-shadow-block
             {color} hover:bg-white"
 >
   <a href={link}>

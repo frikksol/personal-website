@@ -3,9 +3,9 @@
   import Nav from "../components/nav.svelte";
 </script>
 
-<main class="w-screen h-screen">
+<main class="h-screen w-screen">
   <div class="static">
-    <div class="absolute top-0 right-0 z-50">
+    <div class="absolute right-0 top-0 z-50">
       <Nav />
     </div>
     <slot />

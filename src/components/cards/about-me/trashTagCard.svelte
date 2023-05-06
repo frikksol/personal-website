@@ -30,7 +30,7 @@
     NOTE: This project is not affiliated with trashtag.org if you try googling this.
   </p>
   <h1 class="pt-4 font-semibold">Tags:</h1>
-  <div class="mt-2 flex flex-row flex-wrap space">
+  <div class="space mt-2 flex flex-row flex-wrap">
     OpenROV, Python, C, Subsea
   </div></StandardCard
 >
