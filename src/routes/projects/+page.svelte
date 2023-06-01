@@ -1,6 +1,7 @@
 <script lang="ts">
   import BorderHref from "../../components/buttons/borderHref.svelte";
   import ChatAppCard from "../../components/cards/projects/chatAppCard.svelte";
+  import Gpterm from "../../components/cards/projects/gpterm.svelte";
   import Playground from "../../components/cards/projects/playground.svelte";
   import ThisWebsiteCard from "../../components/cards/projects/thisWebsiteCard.svelte";
 
@@ -34,6 +35,7 @@
   {#if singleCol}
     <div class="grid grid-cols-1 gap-0 px-6 py-12 xl:px-52">
       <ThisWebsiteCard />
+      <Gpterm />
       <ChatAppCard />
       <Playground />
     </div>
@@ -44,6 +46,7 @@
         <Playground />
       </div>
       <div class="pl-6 pr-8">
+        <Gpterm />
         <ChatAppCard />
       </div>
     </div>
