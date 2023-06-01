@@ -10,7 +10,8 @@
     <br /><br />
     You can install it using Homebrew on mac, with Cargo, or build it from source.
     When I have the time I'll add Apt and AUR installation methods. You need a chat-GPT
-    API key but that is easy to get and application assists you in setting it up.
+    API key but that is easy to get and the application assists you in setting it
+    up.
     <br /><br />
     Not much more to say. Install it and have some fun!
   </p>
