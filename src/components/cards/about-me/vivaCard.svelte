@@ -9,7 +9,7 @@
 >
   <p class="text-lg">
     From 2018 to 2021 I worked at Viva Labs building a white-label smart home
-    platform. I started as an Embedded Devveloper, developing the firmware that
+    platform. I started as an Embedded Developer, developing the firmware that
     runs of the smart home hubs. These were either screenless Linux machines or
     Android devices. They all had either zigbee, z-wave or both, Wi-Fi,
     Bluetooth and some had ethernet. I was a part of developing drivers for all
@@ -17,7 +17,7 @@
     MQTT.
     <br /><br />
     After a year I took over the CTO position when the founder/CTO decided to pursue
-    other things. As CTO I also had personel responsibilties for 13 Employees and
+    other things. As CTO I also had personnel responsibilities for 13 Employees and
     several consultants. I also wrote a lot of backend code in Java, managed our
     AWS servers and did a lot of App development on our hybrid Javascript/Swift/Kotlin
     app.
@@ -25,7 +25,7 @@
   <br /><br />
   <h2 class="text-lg font-bold">Some of the coolest projects I did in Viva:</h2>
   <h2 class="text-lg">
-    Tailored Android OS to run as a smarthome device frontend:
+    Tailored Android OS to run as a smart home device frontend:
   </h2>
   <p class="text-lg">
     Tight integration into the Viva platform, Kiosk mode, customizing the
@@ -38,8 +38,8 @@
     Developed built-in Alexa support on an Android device:
   </h2>
   <p class="text-lg">
-    Adapt alexa SDK to run on device, built messaging system between OS and
-    Alexa SDK, collaborate with hardware vendor to optimise audio and hardware
+    Adapt Alexa SDK to run on device, built messaging system between OS and
+    Alexa SDK, collaborate with hardware vendor to optimize audio and hardware
     configuration for Alexa, Amazon Alexa certification etc.
   </p>
   <br />

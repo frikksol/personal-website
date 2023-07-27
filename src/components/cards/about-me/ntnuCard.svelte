@@ -10,7 +10,7 @@
   <p class="text-lg">
     From 2010 to 2015 I was a student at the Norwegian University of Science and
     Technology (NTNU) in Trondheim, Norway. I specialized in Signal Processing,
-    Acoustics and Media. It was during my studies I realised that I really loved
+    Acoustics and Media. It was during my studies I realized that I really loved
     programming and decided to pursue a career in software development instead
     of electronics.
     <br /><br />

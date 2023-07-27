@@ -5,6 +5,7 @@
   import TrashTagCard from "../../components/cards/about-me/trashTagCard.svelte";
   import UnlocCard from "../../components/cards/about-me/unlocCard.svelte";
   import VivaCard from "../../components/cards/about-me/vivaCard.svelte";
+  import WebstepCard from "../../components/cards/about-me/webstepCard.svelte";
 
   let innerWidth = 0;
   $: singleCol = innerWidth <= 1280;
@@ -53,6 +54,7 @@
 
   {#if singleCol}
     <div class="grid grid-cols-1 gap-0 px-6 py-12 xl:px-52">
+      <WebstepCard />
       <UnlocCard />
       <VivaCard />
       <EskoCard />
@@ -62,12 +64,13 @@
   {:else}
     <div class="grid grid-cols-1 justify-start xl:grid-cols-2 xl:px-52">
       <div class="pl-8 pr-6">
-        <UnlocCard />
-        <TrashTagCard />
+        <WebstepCard />
+        <VivaCard />
         <NtnuCard />
       </div>
       <div class="pl-6 pr-8">
-        <VivaCard />
+        <UnlocCard />
+        <TrashTagCard />
         <EskoCard />
       </div>
     </div>

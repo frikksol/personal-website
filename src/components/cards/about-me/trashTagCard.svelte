@@ -10,7 +10,7 @@
   <p class="text-lg">
     During the end of my studies and the first half year after graduating, I was
     a part of creating TrashTag. This was an initiative to leverage the use of
-    "cheap" consumer subsea ROV's, and outfitting these with sensors to log
+    "cheap" consumer sub sea ROV's, and outfitting these with sensors to log
     location and depth of marine trash.
     <br /><br />
     The reasoning for the project was that marine trash is a huge problem, and using

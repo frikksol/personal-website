@@ -9,7 +9,7 @@
 >
   <p class="text-lg">
     From 2016 to 2018 I worked as a software engineer at Esko in their digital
-    finishing department. They create machines for pricise cutting of materials
+    finishing department. They create machines for precise cutting of materials
     like cardboard, plastic fabric etc. Picture a CNC equipped with a razor
     blade.
   </p>
@@ -23,8 +23,8 @@
   </p>
   <br />
   <p class="text-lg">
-    Embedded development in C on the machines themselves. Controlling of
-    highspeed electrical motors etc.
+    Embedded development in C on the machines themselves. Controlling of high
+    speed electrical motors etc.
   </p>
   <br />
   <p class="text-lg">
