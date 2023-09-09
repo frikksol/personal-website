@@ -20,8 +20,8 @@
         <h1 class="text-5xl font-bold text-black sm:text-8xl">Herding</h1>
         <img
           class="max-w-full py-12 pr-6 xl:w-3/4 xl:max-w-md"
-          src="zigzag-black.svg"
-          alt="zigzag"
+          src="waves-black.svg"
+          alt="waves"
         />
       </div>
       <div class="pt-2 xl:pt-28">
