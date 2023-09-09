@@ -17,9 +17,6 @@ module.exports = {
           '6px 6px 0rem rgba(0, 0, 0, 1)',
         ]
       },
-      backgroundImage: {
-        'index-background': "url('/background.svg')",
-      }
     },
   },
   plugins: [],

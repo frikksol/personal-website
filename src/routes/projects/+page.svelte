@@ -13,7 +13,7 @@
 </svelte:head>
 <svelte:window bind:innerWidth />
 
-<div class="min-h-screen min-w-full bg-neopurple">
+<div class="min-h-screen min-w-full bg-purple-400">
   <div
     class="grid grid-flow-row grid-cols-1 px-6 py-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"
   >
