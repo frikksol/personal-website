@@ -15,7 +15,7 @@
 
 <div class="min-h-screen min-w-full bg-purple-400">
   <div
-    class="grid grid-flow-row grid-cols-1 px-6 py-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"
+    class="grid grid-flow-row grid-cols-1 px-6 pb-6 pt-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"
   >
     <div>
       <h1 class="text-5xl font-bold text-black sm:text-8xl">Projects</h1>
@@ -31,7 +31,7 @@
   </div>
 
   {#if singleCol}
-    <div class="grid grid-cols-1 gap-0 px-6 py-12 xl:px-52">
+    <div class="grid grid-cols-1 gap-0 px-6 pb-12 xl:px-52">
       <ThisWebsiteCard />
       <Gpterm />
       <ChatAppCard />
