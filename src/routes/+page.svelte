@@ -1,5 +1,4 @@
 <script lang="ts">
-  import BorderHref from "../components/buttons/borderHref.svelte";
   import GithubButton from "../components/buttons/githubButton.svelte";
   import GitlabButton from "../components/buttons/gitlabButton.svelte";
   import LinkedinButton from "../components/buttons/linkedinButton.svelte";
@@ -18,10 +17,12 @@
     >
       <div>
         <h1 class="text-5xl font-bold text-black sm:text-8xl">Frikk</h1>
-        <h1 class="bg-rose text-5xl font-bold text-black sm:text-8xl">
-          Herding
-        </h1>
-        <BorderHref text="my projects" link="/projects" color="bg-green-500" />
+        <h1 class="text-5xl font-bold text-black sm:text-8xl">Herding</h1>
+        <img
+          class="max-w-md py-12 xl:w-3/4 xl:max-w-md"
+          src="zigzag-black.svg"
+          alt="zigzag"
+        />
       </div>
       <div class="pt-2 xl:pt-28">
         <p class="font-sans text-xl font-medium">

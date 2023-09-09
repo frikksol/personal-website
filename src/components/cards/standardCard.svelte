@@ -5,18 +5,18 @@
 </script>
 
 <div
-  class="w-auto h-fit xl:my-12 my-6
-            border-4 border-black drop-shadow-block 
+  class="my-6 h-fit w-auto rounded-xl border-4
+            border-black xl:my-12
             {bodyColor}"
 >
   <div
-    class="w-auto h-auto -mt-1 -mx-1 p-4
-                border-4 border-black
+    class="-mx-1 -mt-1 h-auto w-auto rounded-xl border-4
+                border-black p-4
                 {headerColor}"
   >
-    <h1 class="uppercase font-sans font-semibold text-lg">{title}</h1>
+    <h1 class="font-sans text-lg font-semibold uppercase">{title}</h1>
   </div>
-  <div class="w-auto h-auto p-4">
+  <div class="h-auto w-auto p-4">
     <slot />
   </div>
 </div>

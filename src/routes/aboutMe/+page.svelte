@@ -27,7 +27,7 @@
       <div class="flex justify-start">
         <img
           class="mr-12 mt-12 h-fit w-96
-						  border-4 border-black drop-shadow-block-thick"
+						  rounded-xl border-4 border-black"
           src="me.webp"
           alt="me"
         />
@@ -57,7 +57,7 @@
   </div>
 
   {#if singleCol}
-    <div class="grid grid-cols-1 gap-0 px-6 py-12 xl:px-52">
+    <div class="grid grid-cols-1 gap-0 px-6 xl:px-52">
       <WebstepCard />
       <UnlocCard />
       <VivaCard />

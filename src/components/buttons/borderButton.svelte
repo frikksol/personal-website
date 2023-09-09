@@ -11,8 +11,8 @@
   on:mouseleave
   on:focus
   {...buttonProps}
-  class="my-5 border-4
-            border-black p-2 drop-shadow-block
+  class="my-5 rounded-xl border-4
+            border-black p-2
             {color} font-semibold
             uppercase hover:bg-white"
 >
