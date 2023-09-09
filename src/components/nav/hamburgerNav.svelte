@@ -17,24 +17,29 @@
       class="h-screen w-0 lg:w-[60vw]"
       on:click={() => (showMenu = !showMenu)}
     />
-    <nav
-      class="flex h-screen w-screen flex-none flex-col bg-green-300 lg:w-[40vw]"
-    >
+    <nav class="h-screen w-screen bg-green-300 lg:w-[40vw]">
+      <ul>
+        <li>
+          <TextButton text="Home" on:click={() => onClickNavigate("/")} />
+        </li>
+        <li>
+          <TextButton
+            text="About me"
+            on:click={() => onClickNavigate("/aboutMe")}
+          />
+        </li>
+        <li>
+          <TextButton
+            text="Projects"
+            on:click={() => onClickNavigate("/projects")}
+          />
+        </li>
+      </ul>
       <IconButton
         src="menu.png"
         alt="hamburger"
         color="bg-green-500"
         on:click={() => (showMenu = !showMenu)}
-      />
-
-      <TextButton text="Home" on:click={() => onClickNavigate("/")} />
-      <TextButton
-        text="About me"
-        on:click={() => onClickNavigate("/aboutMe")}
-      />
-      <TextButton
-        text="Projects"
-        on:click={() => onClickNavigate("/projects")}
       />
     </nav>
   </div>

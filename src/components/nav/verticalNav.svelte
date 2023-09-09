@@ -7,14 +7,22 @@
   }
 </script>
 
-<nav class="flex w-screen flex-row justify-center">
-  <TextButtonSmall text="Home" on:click={() => onClickNavigate("/")} />
-  <TextButtonSmall
-    text="About me"
-    on:click={() => onClickNavigate("/aboutMe")}
-  />
-  <TextButtonSmall
-    text="Projects"
-    on:click={() => onClickNavigate("/projects")}
-  />
+<nav class="w-screen">
+  <ul class="flex w-screen flex-row justify-center">
+    <li>
+      <TextButtonSmall text="Home" on:click={() => onClickNavigate("/")} />
+    </li>
+    <li>
+      <TextButtonSmall
+        text="About me"
+        on:click={() => onClickNavigate("/aboutMe")}
+      />
+    </li>
+    <li>
+      <TextButtonSmall
+        text="Projects"
+        on:click={() => onClickNavigate("/projects")}
+      />
+    </li>
+  </ul>
 </nav>
