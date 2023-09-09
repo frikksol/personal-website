@@ -1,5 +1,4 @@
 <script lang="ts">
-  import BorderHref from "../../components/buttons/borderHref.svelte";
   import ChatAppCard from "../../components/cards/projects/chatAppCard.svelte";
   import Gpterm from "../../components/cards/projects/gpterm.svelte";
   import Playground from "../../components/cards/projects/playground.svelte";
@@ -16,11 +15,10 @@
 
 <div class="min-h-screen min-w-full bg-neopurple">
   <div
-    class="grid grid-flow-row grid-cols-1 px-6 pt-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"
+    class="grid grid-flow-row grid-cols-1 px-6 py-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"
   >
     <div>
       <h1 class="text-5xl font-bold text-black sm:text-8xl">Projects</h1>
-      <BorderHref text="about me" link="/aboutMe" color="bg-green-500" />
     </div>
     <div class="px-0 pt-6 xl:px-6">
       <p class="font-sans text-lg font-medium">

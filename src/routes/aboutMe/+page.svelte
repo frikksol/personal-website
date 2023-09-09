@@ -1,5 +1,7 @@
 <script lang="ts">
-  import BorderHref from "../../components/buttons/borderHref.svelte";
+  import GithubButton from "../../components/buttons/githubButton.svelte";
+  import GitlabButton from "../../components/buttons/gitlabButton.svelte";
+  import LinkedinButton from "../../components/buttons/linkedinButton.svelte";
   import EskoCard from "../../components/cards/about-me/eskoCard.svelte";
   import NtnuCard from "../../components/cards/about-me/ntnuCard.svelte";
   import TrashTagCard from "../../components/cards/about-me/trashTagCard.svelte";
@@ -18,7 +20,7 @@
 
 <div class="min-h-screen min-w-full bg-blue-400">
   <div
-    class="grid grid-flow-row grid-cols-1 px-6 pt-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"
+    class="grid grid-flow-row grid-cols-1 px-6 py-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"
   >
     <div class="">
       <h1 class="text-5xl font-bold text-black sm:text-8xl">About me</h1>
@@ -30,12 +32,9 @@
           alt="me"
         />
       </div>
-      <div class="flex justify-start">
-        <BorderHref text="back home?" link="/" color="bg-green-500" />
-      </div>
     </div>
     <div class="px-0 pt-12 xl:px-6 xl:pt-48">
-      <p class="h-full font-sans text-lg font-medium">
+      <p class="font-sans text-lg font-medium">
         My name is Frikk Herding and I am a Norwegian software developer. I love
         building software of all kinds; serious, funny, big and small, but my
         love really lies where software makes things happen in the physical
@@ -49,6 +48,11 @@
         is also the main motivation for building this website from the ground up,
         to learn the ropes, and familiarize myself with web technologies.
       </p>
+      <div class="flex justify-center pt-12">
+        <GithubButton />
+        <GitlabButton />
+        <LinkedinButton />
+      </div>
     </div>
   </div>
 

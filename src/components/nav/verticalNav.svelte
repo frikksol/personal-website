@@ -7,7 +7,7 @@
   }
 </script>
 
-<nav class="flex w-screen flex-row justify-center bg-transparent">
+<nav class="flex w-screen flex-row justify-center">
   <TextButtonSmall text="Home" on:click={() => onClickNavigate("/")} />
   <TextButtonSmall
     text="About me"
