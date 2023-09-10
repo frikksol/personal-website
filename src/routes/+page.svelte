@@ -8,9 +8,7 @@
   <title>Frikk Herding</title>
 </svelte:head>
 
-<div
-  class="min-h-screen min-w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
->
+<div class="min-h-screen min-w-full bg-home bg-no-repeat">
   <div class="">
     <div
       class="grid grid-flow-row grid-cols-1 px-6 pt-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"

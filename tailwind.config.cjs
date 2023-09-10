@@ -17,6 +17,11 @@ module.exports = {
           '6px 6px 0rem rgba(0, 0, 0, 1)',
         ]
       },
+      backgroundImage: {
+        'home': "url('/bg1.svg')",
+        'about-me': "url('/bg2.svg')",
+        'projects': "url('/bg3.svg')",
+      }
     },
   },
   plugins: [],
