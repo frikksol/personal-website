@@ -35,19 +35,23 @@
           />
         </li>
       </ul>
+      <div class="m-8">
+        <IconButton
+          src="menu.webp"
+          alt="hamburger"
+          on:click={() => (showMenu = !showMenu)}
+        />
+      </div>
+    </nav>
+  </div>
+{:else}
+  <nav class="bg-opacity-0">
+    <div class="mr-8 mt-10">
       <IconButton
         src="menu.webp"
         alt="hamburger"
         on:click={() => (showMenu = !showMenu)}
       />
-    </nav>
-  </div>
-{:else}
-  <nav class="bg-opacity-0">
-    <IconButton
-      src="menu.webp"
-      alt="hamburger"
-      on:click={() => (showMenu = !showMenu)}
-    />
+    </div>
   </nav>
 {/if}
