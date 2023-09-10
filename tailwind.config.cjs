@@ -3,7 +3,7 @@ module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     fontFamily: {
-      sans: ['IBM Plex Sans', 'sans-serif']
+      sans: ['Cairo', 'sans-serif']
     },
     extend: {
       colors: {
