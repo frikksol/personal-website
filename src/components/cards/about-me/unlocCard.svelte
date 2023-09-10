@@ -2,11 +2,7 @@
   import StandardCard from "../standardCard.svelte";
 </script>
 
-<StandardCard
-  headerColor="bg-lime-400"
-  bodyColor="bg-white"
-  title="Integrations Lead at Unloc [2021-2023]"
->
+<StandardCard title="Integrations Lead at Unloc [2021-2023]">
   <p class="text-lg">
     In 2021 I started working at Unloc, which builds a platform for digital keys
     and the surrounding infrastructure. They connect smart door locks with the

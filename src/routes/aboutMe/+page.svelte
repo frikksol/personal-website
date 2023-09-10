@@ -20,14 +20,14 @@
 
 <div class="min-h-screen min-w-full bg-about-me bg-no-repeat">
   <div
-    class="grid grid-flow-row grid-cols-1 px-6 py-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"
+    class="grid grid-flow-row grid-cols-1 px-6 py-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:py-0 xl:pt-60"
   >
     <div class="">
       <h1 class="text-5xl font-bold text-black sm:text-8xl">About me</h1>
       <div class="flex justify-start">
         <img
           class="mr-12 mt-12 h-fit w-96
-						  rounded-xl border-4 border-black"
+						  rounded-xl border-2 border-black"
           src="me.webp"
           alt="me"
         />
@@ -48,7 +48,7 @@
         is also the main motivation for building this website from the ground up,
         to learn the ropes, and familiarize myself with web technologies.
       </p>
-      <div class="flex justify-center pt-12">
+      <div class="flex flex-row justify-center pt-12">
         <GithubButton />
         <GitlabButton />
         <LinkedinButton />

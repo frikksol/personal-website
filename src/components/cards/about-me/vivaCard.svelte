@@ -2,11 +2,7 @@
   import StandardCard from "../standardCard.svelte";
 </script>
 
-<StandardCard
-  headerColor="bg-orange-400"
-  bodyColor="bg-white"
-  title="Technical Director at Viva Labs [2018-2021]"
->
+<StandardCard title="Technical Director at Viva Labs [2018-2021]">
   <p class="text-lg">
     From 2018 to 2021 I worked at Viva Labs building a white-label smart home
     platform. I started as an Embedded Developer, developing the firmware that

@@ -2,11 +2,7 @@
   import StandardCard from "../standardCard.svelte";
 </script>
 
-<StandardCard
-  headerColor="bg-sky-300"
-  bodyColor="bg-white"
-  title="Msc. in Electronics and Telecommunications [2010-2015]"
->
+<StandardCard title="Msc. in Electronics and Telecommunications [2010-2015]">
   <p class="text-lg">
     From 2010 to 2015 I was a student at the Norwegian University of Science and
     Technology (NTNU) in Trondheim, Norway. I specialized in Signal Processing,

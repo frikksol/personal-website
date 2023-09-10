@@ -3,7 +3,7 @@
   import StandardCard from "../standardCard.svelte";
 </script>
 
-<StandardCard headerColor="bg-yellow-400" bodyColor="bg-white" title="gpterm">
+<StandardCard title="gpterm">
   <p class="text-lg">
     This is a terminal client for chat-GPT written in rust. Buzzwords you say?
     YES! It works in either single prompt mode, or in conversation mode.

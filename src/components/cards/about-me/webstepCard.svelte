@@ -2,11 +2,7 @@
   import StandardCard from "../standardCard.svelte";
 </script>
 
-<StandardCard
-  headerColor="bg-gray-400"
-  bodyColor="bg-white"
-  title="Senior Consultant at Webstep [2023-present]"
->
+<StandardCard title="Senior Consultant at Webstep [2023-present]">
   <p class="text-lg">
     In 2023 I started a new chapter as a Senior Consultant in Webstep. As
     someone that has mostly worked in Startups, this was a big change for me. My

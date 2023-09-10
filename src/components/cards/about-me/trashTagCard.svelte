@@ -2,11 +2,7 @@
   import StandardCard from "../standardCard.svelte";
 </script>
 
-<StandardCard
-  headerColor="bg-purple-400"
-  bodyColor="bg-white"
-  title="CTO TrashTag [2015]"
->
+<StandardCard title="CTO TrashTag [2015]">
   <p class="text-lg">
     During the end of my studies and the first half year after graduating, I was
     a part of creating TrashTag. This was an initiative to leverage the use of

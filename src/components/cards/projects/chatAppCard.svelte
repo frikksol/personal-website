@@ -3,7 +3,7 @@
   import StandardCard from "../standardCard.svelte";
 </script>
 
-<StandardCard headerColor="bg-orange-400" bodyColor="bg-white" title="Chat app">
+<StandardCard title="Chat app">
   <p class="text-lg">
     This is a realtime chat app which runs on a rust backend with rocket, diesel
     and a postgres database. The fronend is written in typescript using
@@ -16,15 +16,15 @@
     interesting to me. Also the cross-compilation in rust must be the best solution
     for cross-compilation I have ever seen.
   </p>
-  <div class="mt-2 flex flex-row flex-wrap space">
+  <div class="space mt-2 flex flex-row flex-wrap">
     <TechTag href="https://chat-app.frikkherding.dev" text="Visit Chat App" />
   </div>
-  <div class="mt-2 flex flex-row flex-wrap space">
+  <div class="space mt-2 flex flex-row flex-wrap">
     <TechTag href="https://github.com/frikksol/chat-app" text="Visit repo" />
   </div>
 
   <h1 class="pt-4 font-semibold">Technologies used:</h1>
-  <div class="mt-2 flex flex-row flex-wrap space">
+  <div class="space mt-2 flex flex-row flex-wrap">
     <TechTag href="https://kit.svelte.dev/" text="SvelteKit" />
     <TechTag href="https://www.rustlang.org/" text="Rust" />
     <TechTag href="https://rocket.rs/" text="Rocket" />

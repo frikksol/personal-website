@@ -6,7 +6,7 @@
 
 <div
   class="my-5 w-fit rounded-xl
-            border-4 border-black p-2
+            border-2 border-black p-2
             font-semibold uppercase
             {color} hover:bg-white"
 >

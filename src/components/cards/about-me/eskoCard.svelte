@@ -2,11 +2,7 @@
   import StandardCard from "../standardCard.svelte";
 </script>
 
-<StandardCard
-  headerColor="bg-lime-400"
-  bodyColor="bg-white"
-  title="Software Engineer at Esko [2016-2018]"
->
+<StandardCard title="Software Engineer at Esko [2016-2018]">
   <p class="text-lg">
     From 2016 to 2018 I worked as a software engineer at Esko in their digital
     finishing department. They create machines for precise cutting of materials

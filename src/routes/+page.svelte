@@ -40,7 +40,7 @@
       </div>
     </div>
   </div>
-  <div class="mt-12 flex flex-row justify-between">
+  <div class="xl-pb-0 mt-12 flex flex-row justify-between pb-12">
     <div class="xl:absolute xl:left-20 xl:top-24">
       <GithubButton />
     </div>

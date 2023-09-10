@@ -1,22 +1,21 @@
 <script lang="ts">
-  export let headerColor: string;
-  export let bodyColor: string;
   export let title: string;
 </script>
 
 <div
-  class="my-6 h-fit w-auto rounded-xl border-4
-            border-black xl:my-12
-            {bodyColor}"
+  class="my-6 h-fit w-auto rounded-xl border-2
+            border-black xl:my-12"
 >
   <div
-    class="-mx-1 -mt-1 h-auto w-auto rounded-xl border-4
-                border-black p-4
-                {headerColor}"
+    class="h-auto w-auto rounded-t-xl border-b-2
+                border-black bg-white bg-opacity-40
+                p-4"
   >
-    <h1 class="font-sans text-lg font-semibold uppercase">{title}</h1>
+    <h1 class="font-sans text-lg font-semibold uppercase">
+      {title}
+    </h1>
   </div>
-  <div class="h-auto w-auto p-4">
+  <div class="h-auto w-auto rounded-b-xl bg-gray-50 p-4">
     <slot />
   </div>
 </div>
