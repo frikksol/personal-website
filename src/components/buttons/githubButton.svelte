@@ -4,7 +4,7 @@
 
 <IconHref
   link="https://github.com/frikksol"
-  src="github.png"
+  src="github.webp"
   alt="github"
   color="bg-rose-500"
 />

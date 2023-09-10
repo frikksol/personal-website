@@ -4,7 +4,7 @@
 
 <IconHref
   link="https://gitlab.com/frikksol"
-  src="gitlab.png"
+  src="gitlab.webp"
   alt="gitlab"
   color="bg-yellow-300"
 />

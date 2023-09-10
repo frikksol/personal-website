@@ -4,7 +4,7 @@
 
 <IconHref
   link="https://www.linkedin.com/in/fhsolberg/"
-  src="linkedin.png"
+  src="linkedin.webp"
   alt="linkedin"
   color="bg-blue-400"
 />

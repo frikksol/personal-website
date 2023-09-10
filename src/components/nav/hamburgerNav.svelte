@@ -36,7 +36,7 @@
         </li>
       </ul>
       <IconButton
-        src="menu.png"
+        src="menu.webp"
         alt="hamburger"
         on:click={() => (showMenu = !showMenu)}
       />
@@ -45,7 +45,7 @@
 {:else}
   <nav class="bg-opacity-0">
     <IconButton
-      src="menu.png"
+      src="menu.webp"
       alt="hamburger"
       on:click={() => (showMenu = !showMenu)}
     />

@@ -18,9 +18,9 @@ module.exports = {
         ]
       },
       backgroundImage: {
-        'home': "url('/bg1.png')",
-        'about-me': "url('/bg2.png')",
-        'projects': "url('/bg3.png')",
+        'home': "url('/bg1.webp')",
+        'about-me': "url('/bg2.webp')",
+        'projects': "url('/bg3.webp')",
       }
     },
   },
