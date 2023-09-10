@@ -38,7 +38,6 @@
       <IconButton
         src="menu.png"
         alt="hamburger"
-        color="bg-green-500"
         on:click={() => (showMenu = !showMenu)}
       />
     </nav>
@@ -48,7 +47,6 @@
     <IconButton
       src="menu.png"
       alt="hamburger"
-      color="bg-green-500"
       on:click={() => (showMenu = !showMenu)}
     />
   </nav>
