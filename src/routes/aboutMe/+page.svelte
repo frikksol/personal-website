@@ -15,6 +15,10 @@
 
 <svelte:head>
   <title>About Me</title>
+  <meta
+    name="description"
+    content="The home page of Frikk Herding. This is an overview of his work history."
+  />
 </svelte:head>
 <svelte:window bind:innerWidth />
 

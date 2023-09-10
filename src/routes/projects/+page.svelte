@@ -10,6 +10,10 @@
 
 <svelte:head>
   <title>Projects</title>
+  <meta
+    name="description"
+    content="The home page of Frikk Herding. This is an overview of his personal projects."
+  />
 </svelte:head>
 <svelte:window bind:innerWidth />
 

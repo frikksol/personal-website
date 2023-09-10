@@ -6,6 +6,10 @@
 
 <svelte:head>
   <title>Frikk Herding</title>
+  <meta
+    name="description"
+    content="The home page of Frikk Herding. Norwegian software developer, consultant and tech lead."
+  />
 </svelte:head>
 
 <div class="min-h-screen min-w-full bg-home bg-no-repeat">
