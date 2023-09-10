@@ -18,9 +18,9 @@ module.exports = {
         ]
       },
       backgroundImage: {
-        'home': "url('/bg1.svg')",
-        'about-me': "url('/bg2.svg')",
-        'projects': "url('/bg3.svg')",
+        'home': "url('/bg1.png')",
+        'about-me': "url('/bg2.png')",
+        'projects': "url('/bg3.png')",
       }
     },
   },
