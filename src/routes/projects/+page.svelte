@@ -24,7 +24,7 @@
     <div>
       <h1 class="text-5xl font-bold text-black sm:text-8xl">Projects</h1>
     </div>
-    <div class="px-0 pt-6 xl:px-6">
+    <div class="px-0 pt-12 xl:px-6 xl:pt-6">
       <p class="font-sans text-lg font-medium">
         This is a collection of some of my private projects. It is not much yet,
         as I have several projects that I have not yet deployed, and some are

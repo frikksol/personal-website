@@ -21,7 +21,7 @@
         <h1 class="text-5xl font-bold text-black sm:text-8xl">Frikk</h1>
         <h1 class="text-5xl font-bold text-black sm:text-8xl">Herding</h1>
         <img
-          class="max-w-full py-12 pr-6 xl:w-3/4 xl:max-w-md"
+          class="max-w-full py-6 pr-6 xl:w-3/4 xl:max-w-md xl:py-12"
           src="waves.webp"
           alt="waves"
         />
