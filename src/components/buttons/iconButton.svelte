@@ -16,5 +16,5 @@
             rounded-xl border-2 border-black
             {color} hover:bg-white"
 >
-  <img class="h-14 w-14 p-3" {src} {alt} />
+  <img class="h-15 w-15 p-4" {src} {alt} />
 </button>
