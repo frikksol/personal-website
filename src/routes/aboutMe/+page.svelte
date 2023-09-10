@@ -61,7 +61,7 @@
   </div>
 
   {#if singleCol}
-    <div class="grid grid-cols-1 gap-0 px-6 xl:px-52">
+    <div class="grid grid-cols-1 gap-0 px-6 pb-12 xl:px-52">
       <WebstepCard />
       <UnlocCard />
       <VivaCard />
