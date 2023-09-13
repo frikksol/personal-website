@@ -1,6 +1,7 @@
 <script lang="ts">
   import ChatAppCard from "../../components/cards/projects/chatAppCard.svelte";
   import Gpterm from "../../components/cards/projects/gpterm.svelte";
+  import PhotographyCard from "../../components/cards/projects/photographyCard.svelte";
   import Playground from "../../components/cards/projects/playground.svelte";
   import ThisWebsiteCard from "../../components/cards/projects/thisWebsiteCard.svelte";
 
@@ -40,12 +41,14 @@
       <Gpterm />
       <ChatAppCard />
       <Playground />
+      <PhotographyCard />
     </div>
   {:else}
     <div class="grid grid-cols-1 justify-start xl:grid-cols-2 xl:px-52">
       <div class="pl-8 pr-6">
         <ThisWebsiteCard />
         <Playground />
+        <PhotographyCard />
       </div>
       <div class="pl-6 pr-8">
         <Gpterm />

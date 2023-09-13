@@ -17,4 +17,11 @@
   <div class="space mt-2 flex flex-row flex-wrap">
     <TechTag href="https://github.com/frikksol/playground" text="Visit repo" />
   </div>
+  <div class="space mt-2 flex flex-row flex-wrap">
+    <TechTag href="https://svelte.dev/" text="Svelte" />
+    <TechTag href="https://kit.svelte.dev/" text="SvelteKit" />
+    <TechTag href="https://vitejs.dev/" text="Vite" />
+    <TechTag href="https://tailwindcss.com/" text="Tailwind" />
+    <TechTag href="https://www.typescriptlang.org/" text="TypeScript" />
+  </div>
 </StandardCard>
