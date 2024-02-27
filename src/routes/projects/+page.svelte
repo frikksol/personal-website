@@ -18,7 +18,7 @@
 </svelte:head>
 <svelte:window bind:innerWidth />
 
-<div class="min-h-screen min-w-full bg-projects bg-no-repeat">
+<div class="min-h-screen min-w-full bg-projects bg-repeat-y 2xl:bg-cover">
   <div
     class="grid grid-flow-row grid-cols-1 px-6 pb-6 pt-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"
   >

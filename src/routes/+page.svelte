@@ -12,7 +12,7 @@
   />
 </svelte:head>
 
-<div class="min-h-screen min-w-full bg-home bg-no-repeat">
+<div class="min-h-screen min-w-full bg-home bg-repeat-y 2xl:bg-cover">
   <div class="">
     <div
       class="grid grid-flow-row grid-cols-1 px-6 pt-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"
