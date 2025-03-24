@@ -1,0 +1,10 @@
+import{t as d,d as h,e as s}from"../chunks/cZ2x-m5L.js";import"../chunks/DbCK-kP_.js";import{$ as v,M as e,N as o,O as t}from"../chunks/Bno5QJkD.js";import{G as g,L as w}from"../chunks/n5yofFsg.js";const x=!0,j=Object.freeze(Object.defineProperty({__proto__:null,prerender:x},Symbol.toStringTag,{value:"Module"}));var b=d('<meta name="description" content="The home page of Frikk Herding. Norwegian software developer, consultant and tech lead.">'),u=d(`<div class="min-h-screen min-w-full bg-home bg-repeat-y 2xl:bg-cover"><div class="grid grid-flow-row grid-cols-1 px-6 pt-12 xl:grid-flow-col xl:grid-cols-2 xl:px-60 xl:pt-60"><div><h1 class="text-5xl font-bold text-black sm:text-8xl">Frikk</h1> <h1 class="text-5xl font-bold text-black sm:text-8xl">Herding</h1> <img class="max-w-full py-6 pr-6 xl:w-3/4 xl:max-w-md xl:py-12" src="waves.webp" alt="waves"></div> <div class="pt-2 xl:pt-28"><p class="font-sans text-xl font-medium">My name is Frikk Herding and I am a norwegian software developer. I love
+        building software of all kinds; serious, funny, big and small, but my
+        love really lies where software makes things happen in the physical
+        world. <br><br> My root and background is in electronics, but I quickly realized that I enjoyed
+        software development way more, and switched my career in that direction.
+        I like to see myself as a bit of a potato developer; working all the way
+        from embedded C through the backend to different types of frontends. The
+        one area where I feel I have been lacking is in the UI department, which
+        is also the main motivation for building this website from the ground up,
+        to learn the ropes, and familirize myself with web technologies.</p> <div class="flex flex-row justify-center pt-12"><!> <!></div></div></div></div>`);function F(m){var a=u();h(c=>{var f=b();v.title="Frikk Herding",s(c,f)});var i=e(a),r=o(e(i),2),l=o(e(r),2),n=e(l);g(n);var p=o(n,2);w(p),t(l),t(r),t(i),t(a),s(m,a)}export{F as component,j as universal};

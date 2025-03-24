@@ -1,0 +1,51 @@
+{
+	"version": 3,
+	"routes": [
+		{
+			"src": "/aboutMe",
+			"dest": "/aboutMe/"
+		},
+		{
+			"src": "/aboutMe/",
+			"status": 308,
+			"headers": {
+				"Location": "/aboutMe"
+			}
+		},
+		{
+			"src": "/projects",
+			"dest": "/projects/"
+		},
+		{
+			"src": "/projects/",
+			"status": 308,
+			"headers": {
+				"Location": "/projects"
+			}
+		},
+		{
+			"src": "/_app/immutable/.+",
+			"headers": {
+				"cache-control": "public, immutable, max-age=31536000"
+			}
+		},
+		{
+			"handle": "filesystem"
+		},
+		{
+			"src": "/.*",
+			"dest": "/fn"
+		}
+	],
+	"overrides": {
+		"index.html": {
+			"path": ""
+		},
+		"aboutMe.html": {
+			"path": "aboutMe"
+		},
+		"projects.html": {
+			"path": "projects"
+		}
+	}
+}

@@ -1,0 +1,3 @@
+import{t as c,e as p}from"./cZ2x-m5L.js";import"./DbCK-kP_.js";import{Q as b,M as f,O as h}from"./Bno5QJkD.js";import{s as r}from"./BKjGn3f6.js";import{p as a}from"./DMAzO2RG.js";var k=c(`<a><img class="mx-8 my-2 h-16 w-16 rounded-xl border-2
+        border-black p-3 xl:mx-12
+        bg-white bg-opacity-70 hover:bg-opacity-90"></a>`);function l(t,e){let n=a(e,"link",8),s=a(e,"src",8),m=a(e,"alt",8);var i=k(),o=f(i);h(i),b(()=>{r(i,"href",n()),r(o,"src",s()),r(o,"alt",m())}),p(t,i)}function v(t){l(t,{link:"https://github.com/frikksol",src:"github.webp",alt:"github"})}function y(t){l(t,{link:"https://www.linkedin.com/in/fhsolberg/",src:"linkedin.webp",alt:"linkedin"})}export{v as G,y as L};

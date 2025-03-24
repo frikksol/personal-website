@@ -1,0 +1,1 @@
+import{i as r,j as f}from"./Bno5QJkD.js";import{l as d,w as l}from"./cZ2x-m5L.js";function u(t,i,o,n,w){var s;r&&f();var e=(s=i.$$slots)==null?void 0:s[o],a=!1;e===!0&&(e=i.children,a=!0),e===void 0||e(t,a?()=>n:n)}function h(t,i){d(window,["resize"],()=>l(()=>i(window[t])))}export{h as b,u as s};
