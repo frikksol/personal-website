@@ -31,7 +31,7 @@
         This is a collection of some of my private projects. It is not much yet,
         as I have several projects that I have not yet deployed, and some are
         still not finished. Feel free to have a look, and in addition there is
-        more code on my github and gitlab.
+        more code on my github.
       </p>
     </div>
   </div>
