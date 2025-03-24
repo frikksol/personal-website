@@ -1,8 +1,8 @@
 <script lang="ts">
   import GithubButton from "../../components/buttons/githubButton.svelte";
-  import GitlabButton from "../../components/buttons/gitlabButton.svelte";
   import LinkedinButton from "../../components/buttons/linkedinButton.svelte";
   import EskoCard from "../../components/cards/about-me/eskoCard.svelte";
+  import HafslundCard from "../../components/cards/about-me/hafslundCard.svelte";
   import NtnuCard from "../../components/cards/about-me/ntnuCard.svelte";
   import TrashTagCard from "../../components/cards/about-me/trashTagCard.svelte";
   import UnlocCard from "../../components/cards/about-me/unlocCard.svelte";
@@ -54,7 +54,6 @@
       </p>
       <div class="flex flex-row justify-center pt-12">
         <GithubButton />
-        <GitlabButton />
         <LinkedinButton />
       </div>
     </div>
@@ -62,6 +61,7 @@
 
   {#if singleCol}
     <div class="grid grid-cols-1 gap-0 px-6 pb-12 xl:px-52">
+      <HafslundCard />
       <WebstepCard />
       <UnlocCard />
       <VivaCard />
@@ -72,14 +72,15 @@
   {:else}
     <div class="grid grid-cols-1 justify-start xl:grid-cols-2 xl:px-52">
       <div class="pl-8 pr-6">
-        <WebstepCard />
-        <VivaCard />
-        <NtnuCard />
-      </div>
-      <div class="pl-6 pr-8">
+        <HafslundCard />
         <UnlocCard />
         <TrashTagCard />
         <EskoCard />
+      </div>
+      <div class="pl-6 pr-8">
+        <WebstepCard />
+        <VivaCard />
+        <NtnuCard />
       </div>
     </div>
   {/if}

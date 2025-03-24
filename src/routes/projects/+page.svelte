@@ -3,6 +3,7 @@
   import Gpterm from "../../components/cards/projects/gpterm.svelte";
   import PhotographyCard from "../../components/cards/projects/photographyCard.svelte";
   import Playground from "../../components/cards/projects/playground.svelte";
+  import PolloPollCard from "../../components/cards/projects/polloPollCard.svelte";
   import ThisWebsiteCard from "../../components/cards/projects/thisWebsiteCard.svelte";
 
   let innerWidth = 0;
@@ -38,6 +39,7 @@
   {#if singleCol}
     <div class="grid grid-cols-1 gap-0 px-6 pb-12 xl:px-52">
       <ThisWebsiteCard />
+      <PolloPollCard />
       <Gpterm />
       <ChatAppCard />
       <Playground />
@@ -51,6 +53,7 @@
         <PhotographyCard />
       </div>
       <div class="pl-6 pr-8">
+        <PolloPollCard />
         <Gpterm />
         <ChatAppCard />
       </div>
